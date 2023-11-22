@@ -1,0 +1,18 @@
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/rts-1.0.2/include/ghcversion.h
+: hash: c9b68cecb81cc4db15f76a3c4ea40203c2521a885e12fd4f77d4966e7ff2588d
+? /home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/.stack-work/dist/x86_64-linux-tinfo6-libc6-pre232/Cabal-3.8.1.0/build/web-grade-test/autogen/Paths_web_grade.hs
+: hash: 989e144a9fc1d1e47607fc7ed881b20af480176bf8b2fa33fe917ee1bb552e43
+? /home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/.stack-work/dist/x86_64-linux-tinfo6-libc6-pre232/Cabal-3.8.1.0/build/web-grade-test/autogen/cabal_macros.h
+: hash: 34d103f4da9e76acda72859c325da93f58013a23ddaad0609158bbb8d737750b
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/CHANGELOG.md:
+  hash: 8d05df06a5127d9fca9e2f219138b6b2d2a1cc84b94d375dac234c6c90f3fd49
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/README.md:
+  hash: 9832d308dd1b5545cf5b9f6928636b992542eaa4bc01b7f1dde6d7a84133a5dd
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/package.yaml:
+  hash: d1ef6029288530ac816329d442d854ec8ed73284908d45c3e52ddab70940eb16
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/test/Spec.hs:
+  hash: ef8d1c0c14bd7951b5db43ad0bc2b1c46ef3c248d621c644d3ddb98bc2a08ecc
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/web-grade.cabal:
+  hash: cbe0039fe5690add158d7927b34c1c71f392cae5e0e3c96ed3dc67525aac1f9f
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff

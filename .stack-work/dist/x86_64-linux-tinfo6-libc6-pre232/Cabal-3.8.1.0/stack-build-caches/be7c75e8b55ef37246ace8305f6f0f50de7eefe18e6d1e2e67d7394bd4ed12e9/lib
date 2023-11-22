@@ -1,0 +1,238 @@
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSarray-0.5.4.0-ghc9.4.5.so
+: hash: 24e50e047feab78b33dc2b422f3363fcbb51e0acdf212642d4713423ee45001e
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbase-4.17.1.0-ghc9.4.5.so
+: hash: a6b854d5b469973b58cdd3d8355bd2674eccb014d992ea8df2a49fe236614ed7
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbinary-0.8.9.1-ghc9.4.5.so
+: hash: 8d59ad535ee64d919afa96a3eab50de2d7f4f216ae8fd1418570e20d44ead06c
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbytestring-0.11.4.0-ghc9.4.5.so
+: hash: c42604064be8198194877a69d3353ac54f99f74d6a07eb565aee69ec570dacaa
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHScontainers-0.6.7-ghc9.4.5.so
+: hash: 31f87aee9ae809c1275b68cd93c9a7b6707d598cdcf3217ffb82394f500bb216
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSdeepseq-1.4.8.0-ghc9.4.5.so
+: hash: d77df8ae17c8c6316b8fef6655ea2b7e5bdd727244f9ab4c99d14c8a30d28708
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSdirectory-1.3.7.1-ghc9.4.5.so
+: hash: 9feccd4724bc8be0943995d44578ea88e0c4a769839d545997e0affce201513e
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSexceptions-0.10.5-ghc9.4.5.so
+: hash: 36f5dcbb756920f5defd957ff0755a2baac07812b16c9116212f789c89e837d2
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSfilepath-1.4.2.2-ghc9.4.5.so
+: hash: 52a8d6aef2f253dce6691859c8c246cd98c80bea07eea8d7fd64591f295b5f45
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSghc-bignum-1.3-ghc9.4.5.so
+: hash: b3ca802d5a82304f52ff792ac105fde9cd2fb0faf2db055eb47adda102363450
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSghc-boot-th-9.4.5-ghc9.4.5.so
+: hash: 88550786bb5b11165d3a680c64821c14c79a8ffd2f74e5878e82330ed48e3c3b
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSghc-prim-0.9.0-ghc9.4.5.so
+: hash: cb865da1346204c7c7f7d8982a55ad95312587ca96196225f5bf36ee102037fe
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSmtl-2.2.2-ghc9.4.5.so
+: hash: 2ff0f178724d47d99cb15c2dcf108e5d825abecb577fc84b58fc5bab5b8c9309
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSpretty-1.1.3.6-ghc9.4.5.so
+: hash: 3c7a82ba16d16ada422e740339d0a1bbc7f1e6773deddcf137f8a16ba80386db
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSprocess-1.6.16.0-ghc9.4.5.so
+: hash: d20510d3300c6c3dd0b4c5106e63d62b614a1672f69e415dcc13289de9d8db81
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSstm-2.5.1.0-ghc9.4.5.so
+: hash: cf0459668eabf87841f2b29ef43841903df69fe10c06c19a7f917b6b2bef5e2e
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStemplate-haskell-2.19.0.0-ghc9.4.5.so
+: hash: 31648a6cd08a44da1e5157969a6d3b9bd1c684e9fd180de28c3915f259cdddc1
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStext-2.0.2-ghc9.4.5.so
+: hash: 1630dac28c7f4d1617ea064be583e1dc02a8778ed3128d50eff14becab31340a
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStime-1.12.2-ghc9.4.5.so
+: hash: 54fc316f2323af5dc15b9d2b9559f16952cc11fff79a223ca63482c3161ecb22
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStransformers-0.5.6.2-ghc9.4.5.so
+: hash: d4017f4ff41b3d78443850464a7381091d8a89f14805eff2c83b658970215aa7
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSunix-2.7.3-ghc9.4.5.so
+: hash: fa915b46b275d7563ed67b617e84f7d13860f9a22c0e0dca28cc22beb278f10d
+? /home/eduardo-cf/.stack/programs/x86_64-linux/ghc-tinfo6-libc6-pre232-9.4.5/lib/ghc-9.4.5/lib/x86_64-linux-ghc-9.4.5/rts-1.0.2/include/ghcversion.h
+: hash: c9b68cecb81cc4db15f76a3c4ea40203c2521a885e12fd4f77d4966e7ff2588d
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so
+: hash: 2153132e3ccdde0d354d968c8145a3bf5074a3131944c79f594eb4627adba36f
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSQuickCheck-2.14.3-BuFf6DROFmi4fCor8E4V4H-ghc9.4.5.so
+: hash: 0975ce1f13ba0cf14c4d2326574c1687226455ff9052c19eeee810404319dcf5
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so
+: hash: 9cb57f15dd4d6de7e6f9a89fca177394c3ee5de9557c25bc2ab3046a8d8114f9
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSaeson-2.1.2.1-4EtytJi4vSaI1TNXqZwcqO-ghc9.4.5.so
+: hash: c3d933359636dd00ea316c891c1ca376bae47a6bf6a2a7ad2be9e9fb67960712
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSassoc-1.1-C9ql7R5Fj2y4k2S1VmnLER-ghc9.4.5.so
+: hash: c887d4cd250070d255a93de896a335cf7daf0c78da8d137ae1febcee55645291
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSattoparsec-0.14.4-4bpycezUR7s8YWGJHnm9DO-ghc9.4.5.so
+: hash: 4ad07cac34c1b4a1652e887045a3eacaa2b9256083e4e22025e47c04898d1853
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSattoparsec-0.14.4-BHCnpLIUsO9FqxLbFEO1pe-attoparsec-internal-ghc9.4.5.so
+: hash: 73787473d6d7830d88d260443e542d359fc9260d056d7dcc1a37e73f88cb5eea
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbase-compat-0.12.3-EzIEO7DrtWn73MXq9N0DKk-ghc9.4.5.so
+: hash: 0ac3747b0860deb6935c3155882ea0c435cd96f4f51553ee55ecbd5373af1a8f
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbase-compat-batteries-0.12.3-CWRQOAV7v1n4kEkCSQyEbF-ghc9.4.5.so
+: hash: 5bbff98c64962c9cd1e6d8c12d8c5cf40761067d6ce0a9c90328db23dedad9c7
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbase-orphans-0.9.0-9apYLvrFDmLG6M4gvFHbpN-ghc9.4.5.so
+: hash: a7523e48bb2c2960a7b5895955e5e614008b570bf631abda16ee57d633142a13
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbifunctors-5.5.15-GiQaB8xeFXQKis4DVcb0Mv-ghc9.4.5.so
+: hash: ab9ed3f902eca57ac3b75aeb6838fbaf843103efd5d6e199996d005a91bf17f8
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHScomonad-5.0.8-FR6Iy8SEo266pDfBRxe0XO-ghc9.4.5.so
+: hash: 47cac24ba7922feca763be76233a912249617cb0a22a7ea725c99e414ecf0210
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHScontravariant-1.5.5-BXovHlnH2t83xqHMntRQHN-ghc9.4.5.so
+: hash: b432f0b6d712c05e4f63b924c1d662b3c136597699978a1de8f1e6e11c91d650
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSdata-fix-0.3.2-8pGmJTosUy590DbWnb4QG4-ghc9.4.5.so
+: hash: 0ea18e0e6bb892b40866e0d70236380741d56eddf6087ab05800c96fad8193c2
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSdistributive-0.6.2.1-GfWbSDVGHm63H00okph4YW-ghc9.4.5.so
+: hash: 2cf23fe6104dd37249062e9c4d06e4562f7e6145ebd3444e315a5f678ec7b079
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSdlist-1.0-JzOWexo5YFr69Ecc5W9Clo-ghc9.4.5.so
+: hash: e8b8183502e6f96289e6e0a2f80e23623a2c08dc4cc6b56431ea530fab22f35d
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSfoldable1-classes-compat-0.1-2D0bWLkkr03LIZnGB4GEfU-ghc9.4.5.so
+: hash: d20e2bad98a7d7cde6283aa5984eeaffcb34b896bbfa9e23fb4a34ac8f677710
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSgenerically-0.1.1-L3QdfHIOuV28cUChwEJCH9-ghc9.4.5.so
+: hash: ff031c8391e0b0f8ea71eacfd1e2f591780a6ce49e7d6c57e0f5374009878ae0
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHShashable-1.4.3.0-1wEJevMkpkIxgW2pS5Fg9-ghc9.4.5.so
+: hash: 24863bfad65b7281d8ccfec11d2ad5099e9a3e39b66144f2a3b864c76df6cf78
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSindexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs-ghc9.4.5.so
+: hash: a82cdb8969c994ee9d8b40363b7096363bd7b12f984083100e444b74450377b4
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSindexed-traversable-instances-0.1.1.2-JVonttsjrYJ5W6IUdl8kaf-ghc9.4.5.so
+: hash: 56ad19734b60e9b84532e97df60d14d0832da3f67ca47b712853ce67414cc843
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSinteger-logarithms-1.0.3.1-KM08UeqisLj7kB6xeAegdm-ghc9.4.5.so
+: hash: 629ccf13e0e0e11cc37fdb319ffd5e3f32e84ee475f53b21fef84228493c862f
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSprimitive-0.8.0.0-9akshChOwtr20iwuM0c3WJ-ghc9.4.5.so
+: hash: fcb3e7627a0d9504ab5b941ffddd5bda3dab5fb35e9f81b3f249a1268a374b48
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSrandom-1.2.1.1-CqDzcwYpmtdGsBnwctblrv-ghc9.4.5.so
+: hash: cdf0e47aef2b9f694b94eafee5ee97c330fa35682037a28af1ebf4a3aa52be60
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSscientific-0.3.7.0-BxsiRd613KzCywKyFn4N4n-ghc9.4.5.so
+: hash: bc5b5c10fb24814fec73a8e01a9b1f0f315e8026e3734ecace9a3f277603fdb9
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSsemialign-1.3-KpOfdn4yx5k7kNQX9FCvAh-ghc9.4.5.so
+: hash: 8511e3953db36cb9e3c8b5f4fc2ea8f96065ab847dd480c9db92c57a0cef4792
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSsemigroupoids-5.3.7-2Qy0Elfmr5X22QvMhXXvmM-ghc9.4.5.so
+: hash: d7568595e3e958f5d5f1d17e13e2027e6be0e4caf3297031c87d3f1bfb8b47da
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSsplitmix-0.1.0.4-JsSKpnUxaQE9BqQaPra1g3-ghc9.4.5.so
+: hash: afde5c756086bed55b2cf2420994de99b390c35c4357bff59a1cd937def8af57
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSstrict-0.5-7A1UGsmdl1JJBNaglthO4T-ghc9.4.5.so
+: hash: 91e578cfa1cbc3432048109c3af77450320eb2b79e0457290e47735e64420741
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStagged-0.8.7-CFTM0wfPY8p7cHHBcHz2oK-ghc9.4.5.so
+: hash: f03ef23cd9e46e6ba747a0844dd93d968c6e37e7dbc7b5fc0314c958c98029c1
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStext-short-0.1.5-91fBbnAi1orLhaMEbN8r8o-ghc9.4.5.so
+: hash: 41cdc27badd46edb33eb5c0b561d339f6216936062217d62cc87dc5252145f5d
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSth-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT-ghc9.4.5.so
+: hash: 64def6561d49cc964c6a30accbbc517b49346fb23227a9ff768c9aa67b98da23
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSthese-1.2-3cJBGec6GVt9RuqwbjHab-ghc9.4.5.so
+: hash: 5c509db3204a73af7b1446d910c826b57626d2fc740090b3ac1fb05360e0ae64
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStime-compat-1.9.6.1-43XGC4K6qylJEVDpcUkUph-ghc9.4.5.so
+: hash: 9dfc0affe653d5d37ce30fe599fb13041557b4663166bb23b20aac671d4e2911
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStransformers-compat-0.7.2-GlpKy8oKEfdL3vXvqP6QMq-ghc9.4.5.so
+: hash: eb96e8cd3ae18a68a9bd5f9905faee0ccbba04d51c185f73f5acbde018bdfcf1
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSunordered-containers-0.2.19.1-CLvcCcx0X9z8twYEelem0p-ghc9.4.5.so
+: hash: 2829a597802fdf40e158350df3639d104bb75efe17e38c29c1cccbfa2f4ee637
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSuuid-types-1.0.5-2mmLuNANUkVEd0PhSkZxF-ghc9.4.5.so
+: hash: 7db727b731f8ed15b84116689e5627d6bf7ef74b7b264a788ac50c590e41f02a
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSvector-0.13.0.0-JvSw347GJH4LQff8qpFgEs-ghc9.4.5.so
+: hash: 45f2795f15cac38193b08a6c12ea098c0db2c5409c5de40f6e0b15ea49dd7e18
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so
+: hash: b46dcfbb442271df43077bd33f8f8bc7e5ee02699ee571d046adadd4ebbba9a9
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/6176b36f7944b88ff5731d1e5dfc8617957ce229f9804c9c71fce3b2e26fa67e/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSwitherable-0.4.2-IVv0Ek8TV7pLhBYQCN5I4U-ghc9.4.5.so
+: hash: 7289187dfbedaf2fc735ad895ee94a51e821269be0bdabbc8e47242cba9d1315
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSasync-2.2.4-DahgPvlwD1H1fatLXRycg1-ghc9.4.5.so
+: hash: c83a2660ee451ab74219f30a2c1f60e43b598e62b0b4a51bd1e9fed02520b0b7
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSattoparsec-iso8601-1.1.0.0-9AW3sPMGDUrCBwutFGCmrq-ghc9.4.5.so
+: hash: f6f30d9764feac8734400905cad5f9ef3880342ec774970d70e512bd70acd73f
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so
+: hash: 47edcc8561c65198b6b1bc716275fd2437cad847a476d2b79af96b5589f1aecc
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbase64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh-ghc9.4.5.so
+: hash: 1f3b8ab644f213917ac5c3832be533ec8430352265cd3a994733065f42689442
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSbitvec-1.1.4.0-6PbklvkuCpsBJsdxD10kcw-ghc9.4.5.so
+: hash: ea044a00e9248844c882e35009986e9f02290cf55b1080a9c60f3e37321faf98
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSblaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW-ghc9.4.5.so
+: hash: 874b86cb75edface9bf7dc977693346e7fb9062ee2cd4900526a743df425477f
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSblaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR-ghc9.4.5.so
+: hash: cafa7a5dac76d8fe5ffaeb6677d4e70400e77fdf9bbb4a6fe1f58c20de422c3c
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSblaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc-ghc9.4.5.so
+: hash: b4284388528dca1c73b06d8a6b7a04d6e3876b4a6fb75691bd86ed1503705cd3
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHScase-insensitive-1.2.1.0-CcEbFOVLjID779yGJuKoMK-ghc9.4.5.so
+: hash: 0811b1625d854a9754c04e43ccba203e87b9413385a864c0844f9935e672aa1b
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSconduit-1.3.5-BVJQ1CIfUO1RtZs6Mkr9w-ghc9.4.5.so
+: hash: a51870ea7a4977b0a5d31a08e3e43dbde14d5d7641ffd978a0bb9cd5d90222f1
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSconduit-extra-1.3.6-E8fb9LIqq5Eqid3ZbL1o5-ghc9.4.5.so
+: hash: a153990f87a00e8a5c6a2bc7d449af69c00b5d05aeaea0ee2c2716a4d2499c5d
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHScookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE-ghc9.4.5.so
+: hash: 28963edffb9bf832b664bca087f1870f131a8dcefb1a54eca3de41b8e32a3bbf
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so
+: hash: 46adae4d965bcb5e5016abb71e878655ad0c2cbb771b85849fd9f666fe7e21df
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSeasy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF-ghc9.4.5.so
+: hash: b6ed8a93a3579c591bc472cf27b8e8417ec4a5d1414098c53935d43501d4ab62
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSfast-logger-3.2.2-L4646rlgumnjekqIPGDHu-ghc9.4.5.so
+: hash: 5994468606617cf30bd25075bc705a3190bcb24c15010a08612f507d4c711ee5
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHShttp-api-data-0.5-92fUyFmhLedLcEV2zOZrT9-ghc9.4.5.so
+: hash: 5332b79c6cf996d554b95f1c4d48698df63c4a82d9a72e6ff0d10f638d6405c5
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHShttp-types-0.12.3-AfkcPFtGj0MJbdhZeSSXJ9-ghc9.4.5.so
+: hash: f5afda668db3857c1746c69c8bad670c2c2157b97e4d69df24eecc3215279e7c
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSlift-type-0.1.1.1-2p47b0Ftg8mEbzaiZ22oeB-ghc9.4.5.so
+: hash: 20c85b30ef07566669e896ccf2c969e5314d737e3b3a4c456543df410d6db2b9
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSlifted-base-0.2.3.12-H3OdAlR4kpK3gSfpCg3QVU-ghc9.4.5.so
+: hash: 6653f40b25a33d3a1ad5ec6dd31c9c34c1c545579a9e39505c147ab5bb80a041
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSmonad-control-1.0.3.1-9y2unNhOnVfLkb2yTAOVCw-ghc9.4.5.so
+: hash: 6bb53afa0db22329300ced6df7eea6a3147bd84298d684fb15dece8f0103fdf1
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSmonad-logger-0.3.40-JCvMi3PgD6yJYAhGC3Yt7y-ghc9.4.5.so
+: hash: c2ae32bad4a59ace2935e6bf1b42f3fcd2687f5f4bd5632aae07800210ef1fad
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSmonad-loops-0.4.3-BockYJnvL0HFTDvUftBOXr-ghc9.4.5.so
+: hash: 14817139773aa5778ae6fbbf06a3b535ae8dcce55d39fea57d0c46af13cdbafa
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSmono-traversable-1.0.15.3-8FiJH1AcV8iaSoEYAMkp0-ghc9.4.5.so
+: hash: 23ad1d1f300d57ba0bf82edfe9b721df9b33486915c0d2e66c0cb747f75426c4
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSnetwork-3.1.4.0-EqU1XGCyczw5BRh1gJLC4K-ghc9.4.5.so
+: hash: fe7d4be49e293dd394c67518bf2c4e259acd0fe82d6f8d758e1fbb25f1ef3582
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so
+: hash: 3e63f6e6ebde858555c91badc653ea6d0c41958cea4906f6a6a4b16603302e65
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSold-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1-ghc9.4.5.so
+: hash: 69c127434ba0af1fad7831d81e3c9194a4d36ad9847d5a148aa7ce4d723ed625
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSpath-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4-ghc9.4.5.so
+: hash: 47fcf7700318cdf91db7792c797a4076b83e399026df2f41a518288f2bdf3c86
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSpersistent-2.14.5.1-4dusXzhwPI4BxJxg6enmau-ghc9.4.5.so
+: hash: 8b80ac3eb8c87a263a13512bceee4b4d799f7b8aceea4fc0f72f28b8d54ee020
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSresource-pool-0.4.0.0-1vSJi5ZrVrxLgmr6oi0ZqT-ghc9.4.5.so
+: hash: 9eb8d999b241342ce7870d2028d5b49378124abbbafd22d9aaa0a1bccf62788e
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSresourcet-1.2.6-E5pg90oJK8vGiKSskU1oGv-ghc9.4.5.so
+: hash: c752f77713b2f3067e13dd24195cd8b73a65770459295beb5d97710e86030e83
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so
+: hash: 206a72a294b4c45791b1ac27db365f7685deb7505703f6c30559447b554ed528
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSsilently-1.2.5.3-HiTtkArMijI9DvRcUmgkYR-ghc9.4.5.so
+: hash: aeae396546b16b5e474e7cec4c216addb210b935ef3668c2da82d05b76c15904
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so
+: hash: b935926a2b6bcc26349041ba1ba93aeaafd45ee1f5ac9c27f840fc14336575ee
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSstm-chans-3.0.0.9-KwAuYyoo9r3GoiDPqmpN5R-ghc9.4.5.so
+: hash: 1576eafd380bb2d40d74f7905ac154130c3888f57d726bd505062ec795f9b69a
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSstreaming-commons-0.2.2.6-AzyWJ6gU90cLlIUBEwbmvq-ghc9.4.5.so
+: hash: 17da8cc04280d98bc07357d7d04ad684a601136eec1ecfc5625dab0a75ce97f0
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSth-lift-0.8.4-HazFhxS7zuK9PmN7nRfqml-ghc9.4.5.so
+: hash: 0f059958c15e65edf7438d117cbe0054549d51fe4e1ce9d1fcc8e72a94ffd21e
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSth-lift-instances-0.1.20-4fBkEnEbYmWIADXAp952HY-ghc9.4.5.so
+: hash: cc1791c19c3c2f1c3b0c335973f4878ab52d0e7d19a6f83dcba14307411c104f
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStransformers-base-0.4.6-Dh1GQfAVl3HKXmZzaN19QG-ghc9.4.5.so
+: hash: 68ec1eb28f04d1867b04282e23b879316ed7b9c6994ab27ce08fa9bfa46b98a0
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHStyped-process-0.2.11.0-1NmDZnQOX9R9jO21SBkXPE-ghc9.4.5.so
+: hash: 7db3b28a5590a06ea6b12a3ef1649e0d9461553b468ded2bc1cc00c88c7df34a
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSunix-compat-0.7-6qP1xaKS10WBtbiHpUttmW-ghc9.4.5.so
+: hash: 9571a3014302079d800400c95f879ab9ad769e18263e675f96a64b044a019957
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so
+: hash: 830fee3f3bc6c7bd6de51990023c32052d0e225eec5289cdfc95f8d449c20f84
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSunliftio-0.2.25.0-GYCCWuZm16mCFNlIJEefDc-ghc9.4.5.so
+: hash: d797b83e3fc42d741afd5fcafe5f9e9e1a89b7dba6f1192a1816283d7265deaa
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so
+: hash: 5b2f16d60fcde5e7dd2cfb3469e240467745481d0fb1e762fa0faa1536d410bf
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSvault-0.3.1.5-AZ32hRj8ets5pXiRolgDw5-ghc9.4.5.so
+: hash: e7dcee92dcf044a912ee384764d6bf2f54ed242ca5c043ea9bee5a315fbdb564
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSvector-algorithms-0.9.0.1-H792hjot1cW7lRa7zA37rh-ghc9.4.5.so
+: hash: cd9b4d0a568db74a98531680ac24f9f6c04073121b04401800bf2806983ac3a5
+? /home/eduardo-cf/.stack/snapshots/x86_64-linux-tinfo6-libc6-pre232/be7c75e8b55ef37246ace8305f6f0f50de7eefe18e6d1e2e67d7394bd4ed12e9/9.4.5/lib/x86_64-linux-ghc-9.4.5/libHSzlib-0.6.3.0-6pdOcU0xw6kFuchaK75o9o-ghc9.4.5.so
+: hash: 775d22e1968e4cee72d2c5b5b7472bced27a32624daca28a035b7397e18ba02e
+? /home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/.stack-work/dist/x86_64-linux-tinfo6-libc6-pre232/Cabal-3.8.1.0/build/autogen/Paths_web_grade.hs
+: hash: 5406828d9fb34e892c2742daba7f2efdd47a67c6816c5961c65b61cb1a8ec777
+? /home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/.stack-work/dist/x86_64-linux-tinfo6-libc6-pre232/Cabal-3.8.1.0/build/autogen/cabal_macros.h
+: hash: a3a62a88a176412ac33e6686bcfacbadee790a7369a58b3e407c230f5090ffd1
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/CHANGELOG.md:
+  hash: 8d05df06a5127d9fca9e2f219138b6b2d2a1cc84b94d375dac234c6c90f3fd49
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/README.md:
+  hash: 9832d308dd1b5545cf5b9f6928636b992542eaa4bc01b7f1dde6d7a84133a5dd
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/package.yaml:
+  hash: d1ef6029288530ac816329d442d854ec8ed73284908d45c3e52ddab70940eb16
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/src/Controller.hs:
+  hash: fb8c1f2887a21b8c61abddfb8fe0d1e5385cee8a37cea1293ab459cfc1fb69f2
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/src/Database.hs:
+  hash: 51dae4d6d5151744ee578897a02726bc88dfafc5a388488f72a22854c279d40a
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/src/Model.hs:
+  hash: 7bdfdfd18954aa51e7276612c48b109af4d8460d0d395586895d5c53f7af6b4d
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/src/View.hs:
+  hash: b5648d3e491b7e0a0c52818fc4ec7eb41a4a8d9a06aa9b6631b828bf9169d7e9
+/home/eduardo-cf/Prog.Tipo/PGC/git/PGCHaskell/web-grade.cabal:
+  hash: cbe0039fe5690add158d7927b34c1c71f392cae5e0e3c96ed3dc67525aac1f9f
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff

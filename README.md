@@ -1,2 +1,1 @@
-# PGCHaskell
-PGC - Haskell web application
+# web-grade
