@@ -23,11 +23,11 @@ import GHC.Generics
 import Database.Persist
 import Database.Persist.TH
 import Data.Aeson
--- import Data.Time
+-- import Data.Time -- Biblioteca com funções de tempo para implementação do createdAt/updatedAt
 
 -- Estrutura para o Banco de Dados (Biblioteca Persistent)
 -- Talvez mudar para usar maybe no meio e o valor ser opcional no lugar do 0.0 quando recebe o objeto. Colocar tambẽm um campo de data do created e updated
---- Maybe foi, default não funciona e created/updated não tentei.
+--- Maybe foi, default não funciona e created/updated não tentei(necessários ajustes que não deram tempo ainda).
 share [mkEntityDefList "entityDefs", mkPersist sqlSettings] [persistLowerCase|
     Grades
       name        String
@@ -36,8 +36,8 @@ share [mkEntityDefList "entityDefs", mkPersist sqlSettings] [persistLowerCase|
       deriving Show Generic
   |]
 
---- 
 
+-- Definição das funções ToJSON e FromJSON para o datatype Grades.
 instance ToJSON Grades where 
   toJSON (Grades name firstGrade secondGrade) = object ["name" .= name, "firstGrade" .= firstGrade, "secondGrade" .= secondGrade]
 

@@ -29,7 +29,7 @@ mainRouter =  route [
               ]
 
 --
---- Show a Single Grade
+--- Show Grades - Retorna na resposta o Json com o registro do banco com id informado.
 --
 gradesRouteShow :: Snap()
 gradesRouteShow = do
@@ -41,17 +41,19 @@ gradesRouteShow = do
 
 
 --
---- Show all Grades -- Implementar 
+--- Show all Grades -- Apresentar uma lista com todos os registros do banco.
 --
 gradesAllRouteShow :: Snap()
 gradesAllRouteShow = do
     -- Recebe [Entity Grades]. Vem desta maneira pela resposta do GetMany do Persistent
     listGrades <- liftIO $ getManyGrades
     -- response 200 2 (gradesJSONtoLazyByteString $ encode $ Prelude.map entityIdToJSON listGrades)
-    modifyResponse $ setResponseCode 200
+    modifyResponse $ setResponseCode 220
     writeLBS $ encode $ Prelude.map entityIdToJSON listGrades
+
 --
---- Insert a new Grade - tratamento para casos sem valores ou pelo menos retorno em caso de insert incompleto
+--- Insert - Insere um novo registro com os dados passados no Json.
+-- Melhoria - Talvez o tratamento para casos sem valores (Nothing) ou pelo menos retorno em caso de insert incompleto.
 --
 gradesRouteCreate :: Snap()
 gradesRouteCreate = do
@@ -60,10 +62,10 @@ gradesRouteCreate = do
   gradeId <- liftIO $ insertGrade grades
   response 205 gradeId grades
 
-
 --
---- Delete a Grade - Talvez o tratamento para casos sem valores
---  
+--- Delete - Remove um registro com o id informado.
+-- Melhoria - Talvez o tratamento para casos sem valores (Nothing)
+--
 gradesRouteDelete :: Snap()
 gradesRouteDelete = do
   maybeGradeId <- getParam "id"
@@ -74,9 +76,9 @@ gradesRouteDelete = do
       liftIO $ deleteGrade maybeGradeId
       response 210 (gradeIdtoKey maybeGradeId) grades
 
-
 --
---- Update a Grade - Talvez o tratamento para casos sem valores
+--- Update - Atualiza um registro com o id informado e dados passados no Json.
+-- Melhoria - Talvez o tratamento para casos sem valores (Nothing)
 --
 gradesRouteUpdate :: Snap()
 gradesRouteUpdate = do
@@ -90,12 +92,14 @@ gradesRouteUpdate = do
 
 --
 --- Delete Where - Para limpar o banco (mais pra testes)
+--
+
 
 -- Auxiliares
 
 
 --
---- Generate a response for the route with method
+--- Response - Gera a resposta do registro com seu status code. Note que é utilizado para retornar único registro.
 --
 response :: Int -> DB.Key Grades -> Grades -> Snap()
 response status gradeId grades = do
@@ -103,14 +107,16 @@ response status gradeId grades = do
   writeLBS $ gradesToLbs gradeId grades
 
 --
---- With a Lazy Bytestring (The body from our response) parse to Grade
---- Ver a possibilidade de campos opcionais.
+--- LazyByteString to Grades - A partir da leitura do body da request faz o parsing para o datatype utilizado no serviço.
 --
--- Não consegui fazer diretamente com o Aeson, precisei desta função.(FromJSON)
--- OBS. Decode é função do Aeson 
 lbsToGrades :: LBS.ByteString -> Grades
 lbsToGrades body = fromMaybe (Grades ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe Grades)
 
--- Pega valor grade e transforma em Bitestring (ToJSON)
+--
+--- Grades to LazyByteString - A partir do datatype do serviço o transforma em Bytestring para ser enviado como response da request.
+-- 
 gradesToLbs :: DB.Key Grades -> Grades -> LBS.ByteString
 gradesToLbs key grades = encode . entityIdToJSON $ Entity key grades
+
+-- Não consegui fazer diretamente com o Aeson, precisei desta função.(FromJSON)
+-- OBS. Decode é função do Aeson 
