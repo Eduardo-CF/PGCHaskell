@@ -23,7 +23,7 @@ import GHC.Generics
 import Database.Persist
 import Database.Persist.TH
 import Data.Aeson
-import Data.Time
+-- import Data.Time
 
 -- Estrutura para o Banco de Dados (Biblioteca Persistent)
 -- Talvez mudar para usar maybe no meio e o valor ser opcional no lugar do 0.0 quando recebe o objeto. Colocar tambẽm um campo de data do created e updated
