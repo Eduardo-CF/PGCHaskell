@@ -43,8 +43,8 @@ gradesJSONToGrades :: GradesJSON -> Grades
 gradesJSONToGrades gradesJSON = Grades nameJSONtoGrades firstGradeJSONtoGrades secondGradeJSONtoGrades
   where
     nameJSONtoGrades = name gradesJSON
-    firstGradeJSONtoGrades = fromMaybe 0.0 $ firstGrade gradesJSON
-    secondGradeJSONtoGrades = fromMaybe 0.0 $ secondGrade gradesJSON
+    firstGradeJSONtoGrades = firstGrade gradesJSON
+    secondGradeJSONtoGrades = secondGrade gradesJSON
 
 --- Fluxo dos tipos :
 --- ByteString -> GradesJson -> Grades

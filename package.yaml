@@ -32,6 +32,7 @@ dependencies:
 - monad-logger
 - resourcet
 - data-default-class
+- time
 ghc-options:
 - -Wall
 - -Wcompat
