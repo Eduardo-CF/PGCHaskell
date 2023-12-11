@@ -60,11 +60,19 @@ getGrade k = do
   return maybeGrade
 
 
--- getManyGrades :: [DbSql.Key Grades] -> IO [Maybe Grades]
--- getManyGrades ks = do
---   maybeGrade <- dbRunCommand $ DbSql.getMany ks
---   return withDbRun $ DbSql.selectList ([] :: [Filter Grades]) [LimitTo 0, OffsetBy 10]
-getManyGrades = undefined
+  -- getBookmarks :: Maybe Data.ByteString.ByteString -> Maybe Data.ByteString.ByteString -> IO [Entity Bookmark]
+  -- getBookmarks maybeLimitTo maybeOffsetBy = do
+  --   -- If the limit and offset are `Nothing`, we will use the defaults 10 for the limit and 0 for the offset
+  --   let limitToBS  = fromMaybe ("10" :: Data.ByteString.ByteString) maybeLimitTo
+  --   let offsetByBS = fromMaybe ("0" :: Data.ByteString.ByteString) maybeOffsetBy
+  --   -- Converts the strings to integers
+  --   let limitToInt  = read (Data.ByteString.Char8.unpack limitToBS) :: Int
+  --   let offsetByInt = read (Data.ByteString.Char8.unpack offsetByBS) :: Int
+  --   -- The actual database call
+  --   withDbRun $ DbSql.selectList ([] :: [Filter Bookmark]) [LimitTo limitToInt, OffsetBy offsetByInt]
+
+getManyGrades :: IO [Entity Grades]
+getManyGrades = dbRunCommand $ DBSql.selectList ([] :: [Filter Grades]) []
 
 --
 --- Insert

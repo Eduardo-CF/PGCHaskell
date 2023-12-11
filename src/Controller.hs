@@ -44,9 +44,12 @@ gradesRouteShow = do
 --- Show all Grades -- Implementar 
 --
 gradesAllRouteShow :: Snap()
-gradesAllRouteShow = undefined
-
-
+gradesAllRouteShow = do
+    -- Recebe [Entity Grades]. Vem desta maneira pela resposta do GetMany do Persistent
+    listGrades <- liftIO $ getManyGrades
+    -- response 200 2 (gradesJSONtoLazyByteString $ encode $ Prelude.map entityIdToJSON listGrades)
+    modifyResponse $ setResponseCode 200
+    writeLBS $ encode $ Prelude.map entityIdToJSON listGrades
 --
 --- Insert a new Grade - tratamento para casos sem valores ou pelo menos retorno em caso de insert incompleto
 --
@@ -101,6 +104,7 @@ response status gradeId grades = do
 
 --
 --- With a Lazy Bytestring (The body from our response) parse to GradeJSON
+--- Ver a possibilidade de campos opcionais.
 --
 parseToJson :: LBS.ByteString -> GradesJSON
 parseToJson body = fromMaybe (GradesJSON ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe GradesJSON)

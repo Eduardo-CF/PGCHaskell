@@ -23,14 +23,16 @@ import GHC.Generics
 import Database.Persist
 import Database.Persist.TH
 import Data.Aeson
+-- import Data.Time
 
 -- Estrutura para o Banco de Dados (Biblioteca Persistent)
 -- Talvez mudar para usar maybe no meio e o valor ser opcional no lugar do 0.0 quando recebe o objeto. Colocar tambẽm um campo de data do created e updated
+--- Maybe foi, default não funciona e created/updated não tentei.
 share [mkEntityDefList "entityDefs", mkPersist sqlSettings] [persistLowerCase|
     Grades
       name        String
-      firstGrade  Double
-      secondGrade Double
+      firstGrade  Double  Maybe default='0.0'
+      secondGrade Double  Maybe default='0.0'
       deriving Show Generic
   |]
 
@@ -42,5 +44,5 @@ instance ToJSON Grades where
 instance FromJSON Grades where
   parseJSON (Object v) =
     Grades <$> v .:  "name"
-           <*> v .:?  "firstGrade" .!= 0.0
-           <*> v .:?  "secondGrade".!= 0.0
+           <*> v .:? "firstGrade"
+           <*> v .:? "secondGrade"
