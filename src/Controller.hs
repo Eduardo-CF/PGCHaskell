@@ -15,7 +15,7 @@ import Data.Aeson
 import Data.ByteString.Lazy as LBS
 -- import Data.ByteString.Char8
 import Control.Monad.IO.Class
--- import Database.Persist
+import Database.Persist
 import Database.Persist.Class as DB
 
 mainRouter :: Snap()
@@ -56,7 +56,7 @@ gradesAllRouteShow = do
 gradesRouteCreate :: Snap()
 gradesRouteCreate = do
   requestBody <- readRequestBody 2048
-  let grades = gradesJSONToGrades $ parseToJson requestBody
+  let grades = fromJSON $ parseToJson requestBody
   gradeId <- liftIO $ insertGrade grades
   response 205 gradeId grades
 
@@ -82,7 +82,7 @@ gradesRouteUpdate :: Snap()
 gradesRouteUpdate = do
   maybeGradeId <- getParam "id"
   requestBody <- readRequestBody 2048
-  let newGrades = gradesJSONToGrades $ parseToJson requestBody
+  let newGrades = toJSON $ parseToJson requestBody
   maybeGrades <- liftIO $ updateGrade maybeGradeId newGrades
   case maybeGrades of 
     Nothing -> writeBS "Error, id don't exist. Can't update"
@@ -100,11 +100,18 @@ gradesRouteUpdate = do
 response :: Int -> DB.Key Grades -> Grades -> Snap()
 response status gradeId grades = do
   modifyResponse $ setResponseCode status
-  writeLBS $ gradesJSONtoLazyByteString gradeId grades
+  writeLBS $ gradesToLazyByteString gradeId grades
 
 --
 --- With a Lazy Bytestring (The body from our response) parse to GradeJSON
 --- Ver a possibilidade de campos opcionais.
 --
-parseToJson :: LBS.ByteString -> GradesJSON
-parseToJson body = fromMaybe (GradesJSON ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe GradesJSON)
+-- parseToJson :: LBS.ByteString -> GradesJSON
+-- parseToJson body = fromMaybe (GradesJSON ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe GradesJSON)
+
+parseToJson :: LBS.ByteString -> Grades
+parseToJson body = fromMaybe (Grades ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe Grades)
+
+
+gradesToLazyByteString :: DB.Key Grades -> Grades -> LBS.ByteString
+gradesToLazyByteString key grades = encode . entityIdToJSON $ Entity key grades
