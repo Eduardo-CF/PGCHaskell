@@ -11,7 +11,7 @@ module View
 import Model
 
 import GHC.Generics
-import Data.Maybe
+-- import Data.Maybe
 import Data.Aeson
 import Database.Persist
 import Database.Persist.Class
