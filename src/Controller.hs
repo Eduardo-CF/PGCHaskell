@@ -9,14 +9,14 @@ import Model
 -- import View
 
 import Snap
-import Data.Maybe
+-- import Data.Maybe
 import Data.Aeson
 -- import Data.ByteString
-import Data.ByteString.Lazy as LBS
+-- import Data.ByteString.Lazy as LBS
 -- import Data.ByteString.Char8
 import Control.Monad.IO.Class
 import Database.Persist
-import Database.Persist.Class as DB
+-- import Database.Persist.Class as DB
 
 mainRouter :: Snap()
 mainRouter =  route [
@@ -37,7 +37,7 @@ gradesRouteShow = do
     maybeGrade <- liftIO $ getGrade maybeGradeId
     case maybeGrade of
       Nothing -> writeBS "Error, id don't exist."
-      Just grades -> response 200 (gradeIdtoKey maybeGradeId) grades
+      Just grades -> response 200 grades
 
 
 --
@@ -58,9 +58,10 @@ gradesAllRouteShow = do
 gradesRouteCreate :: Snap()
 gradesRouteCreate = do
   requestBody <- readRequestBody 2048
-  let grades = lbsToGrades requestBody
-  gradeId <- liftIO $ insertGrade grades
-  response 205 gradeId grades
+  let grades = decode requestBody :: Maybe Grades
+  case grades of
+    Nothing -> writeBS "Error, grade not correctly formed, can created register."
+    Just newGrade -> response 205 newGrade
 
 --
 --- Delete - Remove um registro com o id informado.
@@ -74,7 +75,7 @@ gradesRouteDelete = do
     Nothing -> writeBS "Error, id don't exist. Can't Delete"
     Just grades -> do
       liftIO $ deleteGrade maybeGradeId
-      response 210 (gradeIdtoKey maybeGradeId) grades
+      response 210 grades
 
 --
 --- Update - Atualiza um registro com o id informado e dados passados no Json.
@@ -84,11 +85,15 @@ gradesRouteUpdate :: Snap()
 gradesRouteUpdate = do
   maybeGradeId <- getParam "id"
   requestBody <- readRequestBody 2048
-  let newGrades = lbsToGrades requestBody
-  maybeGrades <- liftIO $ updateGrade maybeGradeId newGrades
-  case maybeGrades of 
-    Nothing -> writeBS "Error, id don't exist. Can't update"
-    Just grades -> response 215 (gradeIdtoKey maybeGradeId) grades
+  let newGrades = decode requestBody :: Maybe Grades
+  case newGrades of
+    Nothing -> writeBS "Error, grade not correctly formed."
+    Just newGradesValue -> do
+      maybeGrades <- liftIO $ updateGrade maybeGradeId newGradesValue
+      case maybeGrades of
+        Nothing -> writeBS "Error, id don't exist. Can't update"
+        Just grades -> response 215 grades
+  
 
 --
 --- Delete Where - Para limpar o banco (mais pra testes)
@@ -101,22 +106,26 @@ gradesRouteUpdate = do
 --
 --- Response - Gera a resposta do registro com seu status code. Note que é utilizado para retornar único registro.
 --
-response :: Int -> DB.Key Grades -> Grades -> Snap()
-response status gradeId grades = do
+response :: Int -> Grades -> Snap()
+response status grades = do
   modifyResponse $ setResponseCode status
-  writeLBS $ gradesToLbs gradeId grades
+  -- writeLBS $ gradesToLbs gradeId grades -- Modo anterior.
+  -- Abaixo está uma possibilidade, reduzindo o numero de funções e utilizando o ToJSON de Grades.
+  writeLBS . encode $ grades
 
 --
 --- LazyByteString to Grades - A partir da leitura do body da request faz o parsing para o datatype utilizado no serviço.
 --
-lbsToGrades :: LBS.ByteString -> Grades
-lbsToGrades body = fromMaybe (Grades ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe Grades)
+-- lbsToGrades :: LBS.ByteString -> Grades
+-- lbsToGrades body = fromMaybe (Grades ("") (Just 0.0) (Just 0.0)) (decode body :: Maybe Grades)
 
 --
 --- Grades to LazyByteString - A partir do datatype do serviço o transforma em Bytestring para ser enviado como response da request.
 -- 
-gradesToLbs :: DB.Key Grades -> Grades -> LBS.ByteString
-gradesToLbs key grades = encode . entityIdToJSON $ Entity key grades
+-- gradesToLbs :: DB.Key Grades -> Grades -> LBS.ByteString
+-- gradesToLbs key grades = encode . entityIdToJSON $ Entity key grades
 
--- Não consegui fazer diretamente com o Aeson, precisei desta função.(FromJSON)
--- OBS. Decode é função do Aeson 
+-- Não consegui fazer diretamente com o Aeson, precisei desta função.(ToJSON)
+-- OBS. Decode, encode e entityIdToJSON é função do Aeson, precisando do ToJSON e FromJSON
+
+

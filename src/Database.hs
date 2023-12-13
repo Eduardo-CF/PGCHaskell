@@ -44,6 +44,10 @@ getManyGrades :: IO [Entity Grades]
 getManyGrades = dbRunCommand $ DBSql.selectList ([] :: [Filter Grades]) []
 
 --
+--- GetMany - DBSql.getMany recebe lista de ke e retorna lista de maybe grades, talvez. Util caso tenha path para retornar grades especĩficas.
+--
+
+--
 --- Insert - Insere um novo registro do tipo Grades.
 --
 insertGrade :: Grades -> IO(DBSql.Key Grades)
