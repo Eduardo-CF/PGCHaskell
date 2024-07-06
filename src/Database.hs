@@ -26,62 +26,36 @@ import Data.Maybe
 -- import Data.Aeson
 import Data.ByteString.Char8 as BSC8
 
---
---- Abrir conexão
---
-
-sqliteConnection :: IO Data.Text.Text
-sqliteConnection = return $ Data.Text.pack $ "default.db"
-
-
---
---- Rodar Query
---
-dbRunCommand :: SqlPersistT(NoLoggingT (ResourceT IO)) b -> IO b
-dbRunCommand query = do
-  connString <- sqliteConnection
-  runSqlite connString query
-
-
---
---- Migration do banco de dados - Cria estrutura caso não exista.
---
-databaseMigration :: IO()
-databaseMigration = dbRunCommand $ runMigration $ migrate entityDefs $ entityDef (Nothing :: Maybe Grades)
-
 -- Métodos
 
 --
---- Get
+--- Get - Retorna Json de registro com id informado.
+-- Melhoria : Usar Key Grades como entrada.
 --
 getGrade :: Maybe BS.ByteString -> IO(Maybe Grades)
-getGrade k = do
-  maybeGrade <- dbRunCommand $ DBSql.get $ gradeIdtoKey k
+getGrade key = do
+  maybeGrade <- dbRunCommand $ DBSql.get $ gradeIdtoKey key
   return maybeGrade
 
-
-  -- getBookmarks :: Maybe Data.ByteString.ByteString -> Maybe Data.ByteString.ByteString -> IO [Entity Bookmark]
-  -- getBookmarks maybeLimitTo maybeOffsetBy = do
-  --   -- If the limit and offset are `Nothing`, we will use the defaults 10 for the limit and 0 for the offset
-  --   let limitToBS  = fromMaybe ("10" :: Data.ByteString.ByteString) maybeLimitTo
-  --   let offsetByBS = fromMaybe ("0" :: Data.ByteString.ByteString) maybeOffsetBy
-  --   -- Converts the strings to integers
-  --   let limitToInt  = read (Data.ByteString.Char8.unpack limitToBS) :: Int
-  --   let offsetByInt = read (Data.ByteString.Char8.unpack offsetByBS) :: Int
-  --   -- The actual database call
-  --   withDbRun $ DbSql.selectList ([] :: [Filter Bookmark]) [LimitTo limitToInt, OffsetBy offsetByInt]
-
+--
+--- GetAll - Retorna lista de Json com todos registros no banco.
+--
 getManyGrades :: IO [Entity Grades]
 getManyGrades = dbRunCommand $ DBSql.selectList ([] :: [Filter Grades]) []
 
 --
---- Insert
+--- GetMany - DBSql.getMany recebe lista de ke e retorna lista de maybe grades, talvez. Util caso tenha path para retornar grades especĩficas.
+--
+
+--
+--- Insert - Insere um novo registro do tipo Grades.
 --
 insertGrade :: Grades -> IO(DBSql.Key Grades)
 insertGrade grade = dbRunCommand $ DBSql.insert grade
 
 --
---- Update
+--- Update - Atualiza um registro com o id informado, passando as informações recebidas no registro do tipo Grades.
+-- Melhoria : Usar Key Grades como entrada.
 --
 updateGrade :: Maybe BS.ByteString -> Grades -> IO(Maybe Grades)
 updateGrade gradeId grade = do
@@ -104,13 +78,34 @@ updateGrade gradeId grade = do
   
 
 --
---- Delete
+--- Delete - Remove registro com o Id informado.
+-- Melhoria : Usar Key Grades como entrada.
 --
 deleteGrade :: Maybe BS.ByteString -> IO ()
 deleteGrade gradeId = dbRunCommand $ DBSql.delete $ gradeIdtoKey gradeId
 
 
 -- Auxiliares
+
+--
+--- Abrir conexão
+--
+sqliteConnection :: IO Data.Text.Text
+sqliteConnection = return $ Data.Text.pack $ "default.db"
+
+--
+--- Rodar Query
+--
+dbRunCommand :: SqlPersistT(NoLoggingT (ResourceT IO)) b -> IO b
+dbRunCommand query = do
+  connString <- sqliteConnection
+  runSqlite connString query
+
+--
+--- Migration do banco de dados - Cria estrutura caso não exista.
+--
+databaseMigration :: IO()
+databaseMigration = dbRunCommand $ runMigration $ migrate entityDefs $ entityDef (Nothing :: Maybe Grades)
 
 --
 --- ByteString para DBSQL Key
@@ -121,3 +116,10 @@ gradeIdtoKey gradeId = toSqlKey $ fromByteString
     invalid = "-1" :: BS.ByteString
     gradeIdInt64 = fromMaybe invalid gradeId
     fromByteString = read (BSC8.unpack gradeIdInt64) :: Int64
+
+
+-- Ideia da melhoria :
+--- Ao invés do controller informar o bytestring recebido, ele já faz a conversão para um Key Grades e assim a camada de database trata somente
+--- com os tipos suportados por ele.
+--- Isso é interessante caso, por exemplo, faça uma alteração no código e não utilize mais Snap, e o novo framework venha a utilizar uma
+--- estrutura sem Bytestring. Assim seria feito o processo de conversão do tipo que seja para Key Grades e manteria este arquivo como está.
